@@ -1,0 +1,14 @@
+﻿[
+  {
+    "Input": "aaa ddd sss",
+    "Expected": "AAA DDD SSS"
+  },
+  {
+    "Input": "aAa dDd sSs",
+    "Expected": "AaA DdD SsS"
+  },
+  {
+    "Input": "AAA DDD SSS",
+    "Expected": "aaa ddd sss"
+  }
+]
