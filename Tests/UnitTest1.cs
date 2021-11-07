@@ -183,7 +183,7 @@ namespace Tests
             var actual = input.ToTitleCase();
 
             input.Should()
-                .ContainEquivalentOf(actual);
+                .ContainEquivalentOf(expected);
         }
 
         [Trait("Category", "To Abbreviation")]
